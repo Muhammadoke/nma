@@ -1,0 +1,92 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-color: coral;
+}
+
+#header {
+    background-color: coral;
+    border-bottom: 10px solid black;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: black;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.navbar li a :hover {
+    color: coral;
+}
+
+#banner {
+    height: 100vh;
+    background-image: url(bacground.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    background-size: 100% 700px;
+}
+
+#banner h1 {
+    font-size: 100px;
+    margin-bottom: 25px;
+    padding-top: 150px;
+}
+
+
+.left {
+    color:rgb(0, 0, 0);
+    background-color: coral;
+    padding: 10px;
+    text-align: right;
+    display: inline-block;
+}
+
+.telegram {
+    padding: 10px;
+    color: blueviolet;
+    background-color: aqua;
+
+}
+
+.telegram a {
+    background-color: black;
+    color: #fff;
+}
+
+.telegram :hover {
+    color: yellow;
+    background-color: red;
+}
+
